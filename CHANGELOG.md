@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.13.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.12.0...chrome-devtools-mcp-v1.13.0) (2026-11-04)
+
+
+### 🎉 Features
+
+* add logpoints built on the DevTools BreakpointManager ([#3211](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3211)) ([0877ee0](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/0877ee00d2e43c1c04bba275e7d08cc1033e36e9))
+
+
+### 🛠️ Fixes
+
+* **config:** accept config files with a UTF-8 BOM ([#3365](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3365)) ([63170b1](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/63170b11a2fa74d5ceea757194d7b25f3e145f68))
+* **console:** stop resolving a cyclic Error.cause chain after 10 causes ([#3338](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3338)) ([172656a](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/172656ab38a4ff666f88dc9032fa841834a69495))
+* **network:** start an empty request list for navigations without a request ([#3357](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3357)) ([b701776](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/b7017767a4b230509670a27ffee20a8255e3554f))
+* normalize non-Error values thrown by tool handlers ([#3068](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3068)) ([535a3dc](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/535a3dc619498240e25a4ab1b9d9ed37a68579ad))
+* **plugin:** launch the Claude Code MCP server with npx --prefix ([#3353](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3353)) ([a24334d](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/a24334d3a1733996438c3c4786ab4f880aaaf044))
+* **wait:** explain whitespace-sensitive text matching ([#3350](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3350)) ([81a0379](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/81a037939b19a3588ac6a35e06d576af706a3b57))
+
+
+### 📄 Documentation
+
+* add Pi client configuration ([#3364](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3364)) ([bc0d93e](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/bc0d93ee2df6f2410d9e9704903c3547acae7c9a))
+
+
+### ⚡ Performance
+
+* **memory:** drop async parents of request initiators in NetworkCollector ([#3345](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3345)) ([ca6f834](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/ca6f83498014e74243117a2aa3830cf71091d64d)), closes [#3344](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3344)
+
+
+### 🏗️ Refactor
+
+* reuse Zod schemas and validate integer viewport dimensions ([#3367](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3367)) ([3c609da](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/3c609da38a39067f4a0b885ce81968eb958b76a8))
+
 ## [1.12.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.11.0...chrome-devtools-mcp-v1.12.0) (2026-10-22)
 
 
